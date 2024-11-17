@@ -4,18 +4,18 @@ return {
 		blip = {
 			id = 59, colour = 43, scale = 0.6
 		}, inventory = {
-			{ name = 'sandwich_ham', price = 5 },
+			{ name = 'sandwich_ham', price = 50 },
 			{ name = 'sandwich', price = 15 },
-			{ name = 'taco', price = 4 },
-			{ name = 'candy', price = 3 },
-			{ name = 'apple', price = 3 },
-			{ name = 'donut', price = 4 },
+			{ name = 'taco', price = 40 },
+			{ name = 'candy', price = 30 },
+			{ name = 'apple', price = 30 },
+			{ name = 'donut', price = 40 },
 
-			{ name = 'water', price = 3 },
-			{ name = 'ecola', price = 4 },
-			{ name = 'sprunk', price = 4 },
-			{ name = 'orangotang', price = 4 },
-			{ name = 'ejunk', price = 6 },
+			{ name = 'water', price = 30 },
+			{ name = 'ecola', price = 40 },
+			{ name = 'sprunk', price = 40 },
+			{ name = 'orangotang', price = 40 },
+			{ name = 'ejunk', price = 60 },
 
 			{ name = 'smk_brand69', price = 12 },
 			{ name = 'smk_debonaire', price = 12 },
@@ -23,7 +23,6 @@ return {
 			{ name = 'vpe_elect1', price = 21 },
 			{ name = 'vpe_elect3', price = 21 },
 
-			{ name = 'phone', price = 90 },
 			{ name = 'bandage_basic', price = 15 },
 			{ name = 'fold_table', price = 120 },
 			{ name = 'tkit_grill', price = 90 },
