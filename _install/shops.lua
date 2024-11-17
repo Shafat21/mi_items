@@ -5,6 +5,7 @@ return {
 			id = 59, colour = 43, scale = 0.6
 		}, inventory = {
 			{ name = 'sandwich_ham', price = 5 },
+			{ name = 'sandwich', price = 15 },
 			{ name = 'taco', price = 4 },
 			{ name = 'candy', price = 3 },
 			{ name = 'apple', price = 3 },
@@ -26,6 +27,12 @@ return {
 			{ name = 'bandage_basic', price = 15 },
 			{ name = 'fold_table', price = 120 },
 			{ name = 'tkit_grill', price = 90 },
+
+			
+			{ name = 'bandage', price = 500 },
+			{ name = 'wallet', price = 300 },
+			{ name = 'cigarette', price = 30 },
+			{ name = 'WEAPON_PETROLCAN', price = 500 },
 
 			
 
