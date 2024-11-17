@@ -26,6 +26,12 @@ return {
 			{ name = 'bandage_basic', price = 15 },
 			{ name = 'fold_table', price = 120 },
 			{ name = 'tkit_grill', price = 90 },
+			
+			{ name = 'box_rancho_beer', price = 200 },
+			{ name = 'box_dusche_beer', price = 250 },
+			{ name = 'box_stronzo_beer', price = 250 },
+			{ name = 'box_patriot_beer', price = 180 },
+			
 
 		}, locations = {
 			vec3(25.7, -1347.3, 29.49),
