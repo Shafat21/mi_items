@@ -46,7 +46,77 @@
     ]]
 
     return {
+  ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- USABLES: Ammo cases
+    ['box_ammo_rifle1'] = { -- idea: Player uses item to show badge prop
+        label = 'Ammo Case: 5.56x45 (x120)',
+        weight = 5,
+        --consume = 0,
+        description = "A case of stuff to make problems go away",
+        client = {
+            anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', 
+            clip = 'machinic_loop_mechandplayer', flag = 3 },
+            prop = { model = 'prop_box_ammo02a', -- need badge props repo
+            pos = vec3(0.0, 0.7, -0.40), 
+            rot = vec3(0.00, 0.00, 90.00), 
+            bone = 56604  },
+            disable = { move = false, car = false, combat = false },
+            usetime = 5000,
+        }
+    },
 
+    ['box_ammo_rifle2'] = { -- idea: Player uses item to show badge prop
+        label = 'Ammo Case: 7.62x39 (x120)',
+        weight = 5,
+        --consume = 0,
+        description = "A case of stuff to make problems go away",
+        client = {
+            anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', 
+            clip = 'machinic_loop_mechandplayer', flag = 3 },
+            prop = { model = 'prop_box_ammo02a', -- need badge props repo
+            pos = vec3(0.0, 0.7, -0.40), 
+            rot = vec3(0.00, 0.00, 90.00), 
+            bone = 56604  },
+            disable = { move = false, car = false, combat = false },
+            usetime = 5000,
+        }
+    },
+
+    ['box_ammo_shotgun'] = { -- idea: Player uses item to show badge prop
+        label = 'Ammo Case: 12 Gauge (x60)',
+        weight = 5,
+        --consume = 0,
+        description = "A case of stuff to make problems go away",
+        client = {
+            anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', 
+            clip = 'machinic_loop_mechandplayer', flag = 3 },
+            prop = { model = 'prop_box_ammo02a', -- need badge props repo
+            pos = vec3(0.0, 0.7, -0.40), 
+            rot = vec3(0.00, 0.00, 90.00), 
+            bone = 56604  },
+            disable = { move = false, car = false, combat = false },
+            usetime = 5000,
+        }
+    },
+
+    ['box_ammo_sniper'] = { -- idea: Player uses item to show badge prop
+        label = 'Ammo Case: 7.62x51 (x30)',
+        weight = 5,
+        --consume = 0,
+        description = "A case of stuff to make problems go away",
+        client = {
+            anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', 
+            clip = 'machinic_loop_mechandplayer', flag = 3 },
+            prop = { model = 'prop_box_ammo02a', -- need badge props repo
+            pos = vec3(0.0, 0.7, -0.40), 
+            rot = vec3(0.00, 0.00, 90.00), 
+            bone = 56604  },
+            disable = { move = false, car = false, combat = false },
+            usetime = 5000,
+        }
+    },
     
     ----------------------------------------------------------------------------------------------------
 	----------------------------------------------------------------------------------------------------
