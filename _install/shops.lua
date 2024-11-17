@@ -26,11 +26,7 @@ return {
 			{ name = 'bandage_basic', price = 15 },
 			{ name = 'fold_table', price = 120 },
 			{ name = 'tkit_grill', price = 90 },
-			
-			{ name = 'box_rancho_beer', price = 200 },
-			{ name = 'box_dusche_beer', price = 250 },
-			{ name = 'box_stronzo_beer', price = 250 },
-			{ name = 'box_patriot_beer', price = 180 },
+
 			
 
 		}, locations = {
@@ -152,6 +148,12 @@ return {
 			{ name = 'vpe_elect1', price = 21 },
 			{ name = 'vpe_elect2', price = 21 },
 			{ name = 'vpe_elect3', price = 21 },
+
+						
+			{ name = 'box_rancho_beer', price = 200 },
+			{ name = 'box_dusche_beer', price = 250 },
+			{ name = 'box_stronzo_beer', price = 250 },
+			{ name = 'box_patriot_beer', price = 180 },
 		}, locations = {
 			vec3(1135.808, -982.281, 46.415),
 			vec3(-1222.915, -906.983, 12.326),
