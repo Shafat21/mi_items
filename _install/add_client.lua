@@ -58,29 +58,40 @@ Item('note', function(data, slot)
 	end)
 end)
 
--- armor tools
-Item('armor1', function(data, slot)
-	ox_inventory:useItem(data, function(data)
-		exports['mi_items']:armor1()
-	end)
+-- BODY ARMOR
+
+
+Item('bodyarmor_1', function(data, slot) -- Adds 30% of body armor
+	if GetPedArmour(cache.ped) < 100 then
+		ox_inventory:useItem(data, function(data)
+			if data then
+				SetPlayerMaxArmour(PlayerData.id, 100)
+				SetPedArmour(cache.ped, 30)
+			end
+		end)
+	end
 end)
 
-Item('armor2', function(data, slot)
-	ox_inventory:useItem(data, function(data)
-		exports['mi_items']:armor2()
-	end)
+Item('bodyarmor_2', function(data, slot) -- Adds 60% of body armor
+	if GetPedArmour(cache.ped) < 100 then
+		ox_inventory:useItem(data, function(data)
+			if data then
+				SetPlayerMaxArmour(PlayerData.id, 100)
+				SetPedArmour(cache.ped, 60)
+			end
+		end)
+	end
 end)
 
-Item('armor3', function(data, slot)
-	ox_inventory:useItem(data, function(data)
-		exports['mi_items']:armor3()
-	end)
-end)
-
-Item('shield_riot', function(data, slot)
-	ox_inventory:useItem(data, function(data)
-		exports['mi_items']:shield_riot()
-	end)
+Item('bodyarmor_3', function(data, slot) -- Adds 100% of body armor
+	if GetPedArmour(cache.ped) < 100 then
+		ox_inventory:useItem(data, function(data)
+			if data then
+				SetPlayerMaxArmour(PlayerData.id, 100)
+				SetPedArmour(cache.ped, 100)
+			end
+		end)
+	end
 end)
 
 -- recovery
