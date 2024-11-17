@@ -1026,22 +1026,38 @@
             description = "Used to heal small wounds.",
         },
     
-        ['armor1'] = {
-            label = 'Light Body Armor', weight = 5000, stack = false,
-            consume = 1,
+
+        ['bodyarmor_1'] = { --  Use to set body armor to 30%
+            label = 'Light Ballistic Vest',
+            weight = 3000,
+            stack = false,
             description = "Provides minimal body protection.",
+            client = {
+                anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
+                usetime = 6500
+            }
         },
-    
-        ['armor2'] = {
-            label = 'Medium Body Armor', weight = 8000, stack = false,
-            consume = 1,
+
+        ['bodyarmor_2'] = { --  Use to set body armor to 60%
+            label = 'Medium Ballistic Vest',
+            weight = 4500,
+            stack = false,
             description = "Provides limited body protection.",
+            client = {
+                anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
+                usetime = 6500
+            }
         },
-    
-        ['armor3'] = {
-            label = 'Heavy Body Armor', weight = 11000, stack = false,
-            consume = 1,
-            description = "Provides maximum body protection.",
+
+        ['bodyarmor_3'] = { --  Use to set body armor to 100%
+            label = 'Heavy Ballistic Vest',
+            weight = 4500,
+            stack = false,
+            description = "Keep the extra bullets for personal vest flair",
+            client = {
+                anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
+                usetime = 6500
+            }
         },
     
         ['shield_riot'] = {
