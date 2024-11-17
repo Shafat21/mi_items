@@ -180,6 +180,70 @@ return {
 		}
 	},
 
+	
+	YouTool = {
+		name = 'YouTool',
+		blip = {
+			id = 402, colour = 69, scale = 0.6
+		}, inventory = {
+			{ name = 'lockpick', price = 10 },
+			{ name = 'md_shovel', price = 1250 },
+			{ name = 'shovel', price = 1550 },
+			{ name = 'drill', price = 1540 },
+			{ name = 'cutter', price = 750 },
+			{ name = 'bolt_cutter', price = 1050 },
+			{ name = 'blowtorch', price = 950 },
+			{ name = 'tyrekit', price = 2000 },
+			{ name = 'repairkit', price = 5000 },
+			{ name = 'box_small', price = 740 },
+			{ name = 'giftbox_red', price = 1250 },
+			{ name = 'giftbox_white', price = 1540 },
+			{ name = 'paperbag', price = 40 },
+			{ name = 'WEAPON_PETROLCAN', price = 500 },
+
+		}, locations = {
+			vec3(2748.0, 3473.0, 55.67),
+			vec3(46.630023956299, -1749.7778320312, 29.632736206055)
+		}, targets = {
+			
+		}
+	},
+
+	--------------------------------------------------------------------------------------
+	--------------------------------------------------------------------------------------
+	-- minor vendors
+	DigitalDen = {
+		name = 'Digital Den',
+		blip = {
+			id = 606, colour = 2, scale = 0.6
+		}, inventory = {
+			{ name = 'classic_phone', price = 5000 },
+			{ name = 'black_phone', price = 5000 },
+			{ name = 'blue_phone', price = 5000 },
+			{ name = 'gold_phone', price = 5000 },
+			{ name = 'red_phone', price = 5000 },
+			{ name = 'green_phone', price = 5000 },
+			{ name = 'greenlight_phone', price = 5000 },
+			{ name = 'gopro', price = 2000 },
+			{ name = 'pink_phone', price = 5000 },
+			{ name = 'radio', price = 500 },
+			{ name = 'white_phone', price = 5000 },
+			{ name = 'laptop', price = 15000 },
+			{ name = 'powerbank', price = 1200 },
+			{ name = 'vape', price = 250 },
+		}, locations = {
+			vec3(393.52096557617, -832.51336669922, 29.291700363159),
+			
+		}, targets = {
+			{
+                ped = 'u_m_y_guido_01',
+                scenario = 'WORLD_HUMAN_STAND_MOBILE_CLUBHOUSE',
+                loc = vec3(393.52096557617, -832.51336669922, 28.291700363159),
+                heading = 196.545,
+            },
+		}
+	},
+
 	Ammunation = {
 		name = 'Ammunation',
 		blip = {
